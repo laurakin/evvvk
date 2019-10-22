@@ -36,3 +36,63 @@ function myFunction() {
   document.getElementById("demo").innerHTML = x;
 }
 </script>
+
+<h3>How is your day?</h3>
+
+<input type="range" id="myRange" value="90">
+
+<p>Click the button to get the value of the slider control.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myRange").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<input type="text" id="myText" value="...">
+
+<p>Click the "Try it" button to get the text in the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<h3>How did you like the cats?</h3>
+
+<input type="range" id="myRange" value="90">
+
+<p>Click the button to get the value of the slider control.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myRange").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<input type="text" id="myText" value="...">
+
+<p>Click the "Try it" button to get the text in the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
