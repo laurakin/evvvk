@@ -5,7 +5,6 @@
 <b>Feedbackform</b>
 </h1>
 </body>
-</html>
 
 <h3>How did you like the cats?</h3>
 
@@ -23,4 +22,6 @@
 <input type="range" id="myRange" value="90">
 
 <input type="text" id="myText" value="...">
+
+</html>
 
