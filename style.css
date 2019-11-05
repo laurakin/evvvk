@@ -3,3 +3,12 @@
 table1 {
   align-content: center;
 }
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.button {background-color: #4CAF50;} /* Green */
+.button:hover {background-color: #46a049;}
