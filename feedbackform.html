@@ -28,10 +28,22 @@
 <input type="range" id="myRange" value="90"> <br/>
 
 <input type="text" id="myText" value="..."> <br/>
-</body>
 
-<body>
+
 <button type="button"onclick="alert('Sorry, message didn't send')">Send</button>
+<input id="myInput" value="Some text..">
+<button id="myBtn" onclick="javascript:alert('Hello World!')">Button</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("myBtn").click();
+  }
+});
+</script>
+
 </body>
 </html>
 
