@@ -3,7 +3,7 @@
 table1 {
   align-content: center;
 }
-.btn {
+.myBtn {
   border: none; /* Remove borders */
   color: white; /* Add a text color */
   padding: 14px 28px; /* Add some padding */
@@ -12,3 +12,6 @@ table1 {
 
 .button {background-color: #4CAF50;} /* Green */
 .button:hover {background-color: #46a049;}
+
+.myBtn {background-color: #4CAF50;} /* Green */
+.myBtn:hover {background-color: #46a049;}
