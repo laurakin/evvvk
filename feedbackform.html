@@ -33,7 +33,7 @@
 
 <br/>
 <button id="myBtn" onclick="javascript:alert('Sorry, message was not send! :( ')">Send</button>
-
+<script>
 <aside draggable="true" id="dragme">
     This is an aside, drag me.
 </aside>
@@ -58,7 +58,8 @@ function drop(event) {
 var dm = document.getElementById('dragme'); 
 dm.addEventListener('dragstart',drag_start,false); 
 document.body.addEventListener('dragover',drag_over,false); 
-document.body.addEventListener('drop',drop,false); 
+document.body.addEventListener('drop',drop,false);
+<script/>
 </body>
 </html>
 
