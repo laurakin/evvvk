@@ -38,7 +38,7 @@
 function drop(event)
 {  
 event.preventDefault();
-var data=event.dataTransfer.getData("Text"); 
+var data=event.dataTransfer.getData("torvi"); 
 event.target.appendChild(document.getElementById(data));
 }
 function permitdrop(event)
@@ -47,7 +47,7 @@ event.preventDefault();
 }
 event.preventDefault();
 {
-event.dataTransfer.setData("Text", event.target.id);
+event.dataTransfer.setData("torvi", event.target.id);
 }
 </script>
   
