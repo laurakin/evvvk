@@ -8,7 +8,7 @@ table1 {
   color: red; /* Add a text color */
   padding: 14px 28px; /* Add some padding */
   cursor: pointer; /* Add a pointer cursor on mouse-over */
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Coming Soon', "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .button {background-color: #4CAF50;} /* Green */
@@ -22,5 +22,5 @@ myBtn {
   color: red; 
   padding: 14px 28px; 
   cursor: pointer;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Coming Soon', "Comic Sans MS", "Comic Sans", cursive;
 }
