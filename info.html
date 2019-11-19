@@ -9,37 +9,6 @@
   <meta name="keywords" content="Cat, meme, Jaana, Laura, www-kurssi">
   <meta name="author" content="Jaana Kauppila">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <script>
-function ShowPosition()
-{
-if (navigator.geolocation)
-navigator.geolocation.getCurrentPosition(DisplayResult, DisplayError)
-else
-alert("Browser does not support geolocation");
-}
-function DisplayResult(Position)
-{
-var message = " Latitude: " + Position.coords.latitude;
-message += " Longitude: " + Position.coords.longitude;
-message += " Accuracy: " + Position.coords.accuracy + " meters ";
-alert(message);
-}
-function DisplayError(Error)
-{
-var message;
-switch(Error.code) {
-case 0: message = "Error retrieving location information";
-break;
-case 1: message = "User prevented location access";
-break;
-case 2: message = "Browser could not retrieve data";
-break;
-case 3: message = "Browser timed out during data retrieval";
-break;
-}
-alert(Message);
-}
-</script>
    </head>
   
   <navi>
@@ -66,7 +35,8 @@ alert(Message);
 <a href="mailto:name@somesite.com?subject=Cat order!&body=Hey,
 I found this cat and want to purchase it!">E-Mail</a>
 
-  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14464.011438319441!2d-71.00875476219463!3d25.000018791134593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89451ab5034cb7ab%3A0xb600ecf3df7aca4d!2sBermuda%20triangle!5e0!3m2!1sfi!2sfi!4v1574149092147!5m2!1sfi!2sfi" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		
 </body>
 	<footer>
 		facebook 
