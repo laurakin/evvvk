@@ -8,6 +8,7 @@ table1 {
   color: red; /* Add a text color */
   padding: 14px 28px; /* Add some padding */
   cursor: pointer; /* Add a pointer cursor on mouse-over */
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .button {background-color: #4CAF50;} /* Green */
@@ -15,3 +16,11 @@ table1 {
 
 .myBtn {background-color: #4CAF50;} /* Green */
 .myBtn:hover {background-color: #46a049;}
+
+myBtn {
+  border: none; 
+  color: red; 
+  padding: 14px 28px; 
+  cursor: pointer;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
