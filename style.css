@@ -3,6 +3,9 @@
 table1 {
   align-content: center;
 }
+a:hover {
+  background-color: yellow;
+}
 #myBtn {
   border: none; /* Remove borders */
   color: red; /* Add a text color */
