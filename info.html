@@ -9,6 +9,37 @@
   <meta name="keywords" content="Cat, meme, Jaana, Laura, www-kurssi">
   <meta name="author" content="Jaana Kauppila">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <script>
+function ShowPosition()
+{
+if (navigator.geolocation)
+navigator.geolocation.getCurrentPosition(DisplayResult, DisplayError)
+else
+alert("Browser does not support geolocation");
+}
+function DisplayResult(Position)
+{
+var message = " Latitude: " + Position.coords.latitude;
+message += " Longitude: " + Position.coords.longitude;
+message += " Accuracy: " + Position.coords.accuracy + " meters ";
+alert(message);
+}
+function DisplayError(Error)
+{
+var message;
+switch(Error.code) {
+case 0: message = "Error retrieving location information";
+break;
+case 1: message = "User prevented location access";
+break;
+case 2: message = "Browser could not retrieve data";
+break;
+case 3: message = "Browser timed out during data retrieval";
+break;
+}
+alert(Message);
+}
+</script>
    </head>
   
   <navi>
@@ -20,13 +51,13 @@
   </navi>
 	<cart>shopping cart xy</cart>
   
-  <body>
+  <body onload="ShowPosition()">
 	  
 <title>Five reasons to adopt a meme cat</title>
 	  <ul>
   <li>They are cute</li>
   <li>and soft!</li>
-  <li>They love you. <3 </li>
+  <li>They love you. [<3] </li>
 	  <li>They don't make a mess, like a real cat.</li>
 		  <li>You can send them to your mom!</li>
 </ul>
