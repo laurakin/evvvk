@@ -34,8 +34,7 @@ myBtn {
 td {
   height: 250px;
   width: 250px;
-  vertical-align: middle;
-  horizontal-align: middle; 
+  align-content: center; 
   
 }
 
