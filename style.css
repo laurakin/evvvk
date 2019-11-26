@@ -45,3 +45,5 @@ td {
   cursor: pointer; /* Add a pointer cursor on mouse-over */
   font-family: 'Comic Sans MS', 'Comic Sans', 'Coming Soon',  cursive;
 }
+
+buyBtn:hover {background-color: #46a049;}
