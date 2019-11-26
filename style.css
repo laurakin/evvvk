@@ -1,5 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+  align-content: center;
+}
+
 table1 {
   align-content: center;
 }
