@@ -27,4 +27,10 @@ myBtn {
   cursor: pointer;
   font-family: 'Coming Soon', "Comic Sans MS", "Comic Sans", cursive;
 }
-
+td {
+  height: 250px;
+  width: 250px;
+  vertical-align: middle;
+  horizontal-align: middle; 
+  
+}
