@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
   <head>
@@ -57,6 +58,41 @@ event.dataTransfer.setData("Text", event.target.id);
 </div>
 
  
+</body>
+</html>
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function drop(event)
+ {
+    event.preventDefault();
+	var data=event.dataTransfer.getData("Text");
+	   event.target.appendChild(document.getElementById(data));
+}
+
+function permitdrop(event)
+{
+  event.preventDefault();
+}
+
+function drag(event) 
+{ 
+ event.dataTransfer.setData("Text", event.target.id);
+}
+ 
+</script>
+</head>
+<body>
+<imgsrc="dog.jpg" draggable="false" id="dog" width="400" height="300" />
+<imgsrc="cat.jpg" draggable="true" id="cat" width="400" height="300" 
+ondragstart="drag(event)"/>
+<br/>
+<div ondragover="permitdrop(event)" ondrop="drop(event)" style="background-color: yellow; 
+width:400px; height:300px"></div>
 </body>
 </html>
 
