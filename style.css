@@ -3,7 +3,8 @@
 .content {
   max-width: 500px;
   margin: auto;
-  vertical-align: middle;
+  align: center
+    text-align: center;
 }
 
 table1 {
