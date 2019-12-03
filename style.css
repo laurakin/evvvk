@@ -1,7 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-  align-content: center;
+  max-width: 500px;
+  margin: auto;
+  vertical-align: middle;
 }
 
 table1 {
